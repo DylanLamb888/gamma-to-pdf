@@ -212,11 +212,7 @@ Run the CLI help:
 npm run export -- --help
 ```
 
-CI is configured in:
-
-```text
-.github/workflows/ci.yml
-```
+The repo is structured to be CI-friendly, but no workflow file is committed by default.
 
 ## Troubleshooting
 
