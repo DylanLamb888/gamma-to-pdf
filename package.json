@@ -1,0 +1,26 @@
+{
+  "name": "gamma-to-pdf",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Export Gamma documents to PDF with a persistent authenticated browser profile.",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "gamma-to-pdf": "./bin/gamma-to-pdf.mjs"
+  },
+  "scripts": {
+    "setup": "node ./scripts/setup.mjs",
+    "doctor": "node ./scripts/doctor.mjs",
+    "export": "node ./bin/gamma-to-pdf.mjs",
+    "export-pdf": "node ./bin/gamma-to-pdf.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.69",
+    "pdfjs-dist": "^4.10.38",
+    "pdf-lib": "^1.17.1",
+    "playwright": "^1.55.0"
+  }
+}

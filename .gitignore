@@ -1,0 +1,16 @@
+node_modules/
+exports/
+coverage/
+
+*.pdf
+*.chat/
+*.llm/
+.tmp-*/
+
+.DS_Store
+.claude/
+.playwright-cli/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
